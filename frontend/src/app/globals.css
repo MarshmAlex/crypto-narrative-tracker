@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 226, 232, 240;
+  --background-start-rgb: 10, 14, 23;
+  --background-end-rgb: 15, 22, 35;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0e17; }
+::-webkit-scrollbar-thumb { background: #22a36d44; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #22a36d88; }
+
+/* Blur glow effect for cards */
+.glow-card {
+  box-shadow: 0 0 0 1px rgba(34,163,109,0.15), 0 4px 24px rgba(0,0,0,0.4);
+}
+
+.glow-card:hover {
+  box-shadow: 0 0 0 1px rgba(34,163,109,0.35), 0 8px 32px rgba(34,163,109,0.08);
+}
