@@ -10,6 +10,9 @@ interface Coin {
   symbol: string;
   name: string;
   price_change_24h: number | null;
+  price_change_7d: number | null;
+  current_price: number | null;
+  market_cap_rank: number | null;
   is_trending: boolean;
 }
 
@@ -164,9 +167,9 @@ function getMockData(): NarrativesData {
       id: "ai_tokens", name: "AI Tokens", score: 92.5, mentions_24h: 847,
       velocity: 2.3, sentiment: 0.42,
       top_coins: [
-        { symbol: "TAO", name: "Bittensor", price_change_24h: 8.4, is_trending: true },
-        { symbol: "FET", name: "Fetch.ai", price_change_24h: 5.2, is_trending: false },
-        { symbol: "RNDR", name: "Render", price_change_24h: 3.1, is_trending: true },
+        { symbol: "TAO", name: "Bittensor", price_change_24h: 8.4, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: true },
+        { symbol: "FET", name: "Fetch.ai", price_change_24h: 5.2, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
+        { symbol: "RNDR", name: "Render", price_change_24h: 3.1, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: true },
       ],
       top_posts: [
         { title: "AI agents are eating crypto — the next 100x narrative", url: "#", score: 4200, comments: 312, subreddit: "cryptocurrency" },
@@ -178,8 +181,8 @@ function getMockData(): NarrativesData {
       id: "rwa", name: "Real World Assets (RWA)", score: 78.1, mentions_24h: 523,
       velocity: 1.8, sentiment: 0.35,
       top_coins: [
-        { symbol: "ONDO", name: "Ondo Finance", price_change_24h: 12.1, is_trending: true },
-        { symbol: "CFG", name: "Centrifuge", price_change_24h: 4.5, is_trending: false },
+        { symbol: "ONDO", name: "Ondo Finance", price_change_24h: 12.1, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: true },
+        { symbol: "CFG", name: "Centrifuge", price_change_24h: 4.5, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
       ],
       top_posts: [
         { title: "BlackRock BUIDL fund hits $500M — RWA is real", url: "#", score: 3900, comments: 275, subreddit: "CryptoMarkets" },
@@ -190,9 +193,9 @@ function getMockData(): NarrativesData {
       id: "memecoins", name: "Memecoins", score: 65.3, mentions_24h: 1204,
       velocity: 0.7, sentiment: 0.18,
       top_coins: [
-        { symbol: "PEPE", name: "Pepe", price_change_24h: -3.2, is_trending: false },
-        { symbol: "WIF", name: "dogwifhat", price_change_24h: 6.7, is_trending: true },
-        { symbol: "BONK", name: "Bonk", price_change_24h: 2.1, is_trending: false },
+        { symbol: "PEPE", name: "Pepe", price_change_24h: -3.2, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
+        { symbol: "WIF", name: "dogwifhat", price_change_24h: 6.7, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: true },
+        { symbol: "BONK", name: "Bonk", price_change_24h: 2.1, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
       ],
       top_posts: [
         { title: "Memecoin cycle 2025: which ones survive the bear?", url: "#", score: 1800, comments: 420, subreddit: "altcoin" },
@@ -203,8 +206,8 @@ function getMockData(): NarrativesData {
       id: "l2", name: "Layer 2 / Scaling", score: 58.7, mentions_24h: 398,
       velocity: 1.1, sentiment: 0.22,
       top_coins: [
-        { symbol: "ARB", name: "Arbitrum", price_change_24h: 1.9, is_trending: false },
-        { symbol: "OP", name: "Optimism", price_change_24h: 2.4, is_trending: false },
+        { symbol: "ARB", name: "Arbitrum", price_change_24h: 1.9, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
+        { symbol: "OP", name: "Optimism", price_change_24h: 2.4, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
       ],
       top_posts: [],
       history_7d: makeHistory(58.7),
@@ -213,43 +216,43 @@ function getMockData(): NarrativesData {
       id: "depin", name: "DePIN", score: 51.2, mentions_24h: 287,
       velocity: 1.4, sentiment: 0.31,
       top_coins: [
-        { symbol: "HNT", name: "Helium", price_change_24h: 7.3, is_trending: true },
-        { symbol: "FIL", name: "Filecoin", price_change_24h: -1.2, is_trending: false },
+        { symbol: "HNT", name: "Helium", price_change_24h: 7.3, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: true },
+        { symbol: "FIL", name: "Filecoin", price_change_24h: -1.2, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false },
       ],
       top_posts: [],
       history_7d: makeHistory(51.2),
     },
     {
       id: "defi", name: "DeFi", score: 44.8, mentions_24h: 612, velocity: 0.9, sentiment: 0.15,
-      top_coins: [{ symbol: "UNI", name: "Uniswap", price_change_24h: 0.8, is_trending: false }],
+      top_coins: [{ symbol: "UNI", name: "Uniswap", price_change_24h: 0.8, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false }],
       top_posts: [],
       history_7d: makeHistory(44.8),
     },
     {
       id: "btc_ecosystem", name: "Bitcoin Ecosystem", score: 38.4, mentions_24h: 215,
       velocity: 0.8, sentiment: 0.28,
-      top_coins: [{ symbol: "STX", name: "Stacks", price_change_24h: 3.4, is_trending: false }],
+      top_coins: [{ symbol: "STX", name: "Stacks", price_change_24h: 3.4, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false }],
       top_posts: [],
       history_7d: makeHistory(38.4),
     },
     {
       id: "restaking", name: "Restaking / LRT", score: 32.1, mentions_24h: 178,
       velocity: 1.2, sentiment: 0.19,
-      top_coins: [{ symbol: "EIGEN", name: "EigenLayer", price_change_24h: 5.1, is_trending: true }],
+      top_coins: [{ symbol: "EIGEN", name: "EigenLayer", price_change_24h: 5.1, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: true }],
       top_posts: [],
       history_7d: makeHistory(32.1),
     },
     {
       id: "gamefi", name: "GameFi / NFT Gaming", score: 24.6, mentions_24h: 134,
       velocity: 0.6, sentiment: 0.08,
-      top_coins: [{ symbol: "IMX", name: "Immutable", price_change_24h: 1.2, is_trending: false }],
+      top_coins: [{ symbol: "IMX", name: "Immutable", price_change_24h: 1.2, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false }],
       top_posts: [],
       history_7d: makeHistory(24.6),
     },
     {
       id: "solana_ecosystem", name: "Solana Ecosystem", score: 19.3, mentions_24h: 428,
       velocity: 0.5, sentiment: 0.12,
-      top_coins: [{ symbol: "SOL", name: "Solana", price_change_24h: -0.8, is_trending: false }],
+      top_coins: [{ symbol: "SOL", name: "Solana", price_change_24h: -0.8, price_change_7d: null, current_price: null, market_cap_rank: null, is_trending: false }],
       top_posts: [],
       history_7d: makeHistory(19.3),
     },

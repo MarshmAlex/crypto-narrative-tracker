@@ -173,23 +173,33 @@ export default function NarrativeTable({ narratives, isPro }: NarrativeTableProp
                   <h4 className="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-2">
                     Associated Coins
                   </h4>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                     {n.top_coins.map((c) => (
                       <div
                         key={c.symbol}
-                        className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-700/50 border border-surface-600/40"
+                        className="flex items-center justify-between px-3 py-2 rounded-lg bg-surface-700/50 border border-surface-600/40"
                       >
-                        <span className="font-mono font-bold text-xs text-slate-300">{c.symbol}</span>
-                        <span className="text-xs text-slate-500">{c.name}</span>
-                        {c.price_change_24h !== null && (
-                          <span className={`text-xs font-semibold ${c.price_change_24h > 0 ? "text-emerald-400" : "text-red-400"}`}>
-                            {c.price_change_24h > 0 ? "+" : ""}
-                            {c.price_change_24h?.toFixed(2)}%
-                          </span>
-                        )}
-                        {c.is_trending && (
-                          <span className="text-xs text-brand-400">🔥</span>
-                        )}
+                        <div className="flex items-center gap-2">
+                          {c.is_trending && <span className="text-xs">🔥</span>}
+                          <span className="font-mono font-bold text-xs text-slate-200">{c.symbol}</span>
+                          {c.market_cap_rank && (
+                            <span className="text-xs text-slate-600">#{c.market_cap_rank}</span>
+                          )}
+                        </div>
+                        <div className="text-right">
+                          <div className={`text-xs font-semibold ${
+                            (c.price_change_7d ?? 0) > 0 ? "text-emerald-400" : "text-red-400"
+                          }`}>
+                            {(c.price_change_7d ?? 0) > 0 ? "+" : ""}{c.price_change_7d?.toFixed(1) ?? "—"}% 7j
+                          </div>
+                          {c.price_change_24h !== null && (
+                            <div className={`text-xs ${
+                              (c.price_change_24h ?? 0) > 0 ? "text-emerald-600" : "text-red-600"
+                            }`}>
+                              {(c.price_change_24h ?? 0) > 0 ? "+" : ""}{c.price_change_24h?.toFixed(1)}% 24h
+                            </div>
+                          )}
+                        </div>
                       </div>
                     ))}
                   </div>

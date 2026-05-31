@@ -312,7 +312,7 @@ def analyze_narratives(
             if len(top_posts) >= 3:
                 break
 
-        # Top coins enriched with market data
+        # Top coins enriched with market data — sorted by 7d performance
         top_coins = []
         for sym in r["coins"]:
             info = market_lookup.get(sym, {})
@@ -320,8 +320,16 @@ def analyze_narratives(
                 "symbol": sym,
                 "name": info.get("name", sym),
                 "price_change_24h": info.get("price_change_24h_pct"),
+                "price_change_7d": info.get("price_change_7d_pct"),
+                "current_price": info.get("current_price"),
+                "market_cap_rank": info.get("market_cap_rank"),
                 "is_trending": sym in trending_symbols,
             })
+        # Sort by 7d perf desc, put trending first
+        top_coins.sort(key=lambda x: (
+            not x["is_trending"],
+            -(x["price_change_7d"] or 0)
+        ))
 
         scored.append({
             "id": nid,
