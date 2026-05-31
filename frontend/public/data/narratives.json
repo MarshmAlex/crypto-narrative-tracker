@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-31T12:51:41.774418+00:00",
+    "generated_at": "2026-05-31T17:44:06.560949+00:00",
     "posts_analysed": 200,
     "trending_coins": 15,
     "market_coins": 100
@@ -10,8 +10,8 @@
       "id": "defi",
       "name": "DeFi",
       "score": 100.0,
-      "mentions_24h": 77,
-      "velocity": 77.0,
+      "mentions_24h": 76,
+      "velocity": 76.0,
       "sentiment": 0.008,
       "top_coins": [
         {
@@ -62,18 +62,18 @@
         {
           "symbol": "AAVE",
           "name": "Aave",
-          "price_change_24h": -0.1761,
-          "price_change_7d": -5.603679809557595,
-          "current_price": 82.69,
+          "price_change_24h": -1.96166,
+          "price_change_7d": -5.1100116666384725,
+          "current_price": 81.42,
           "market_cap_rank": 63,
           "is_trending": false
         },
         {
           "symbol": "UNI",
           "name": "Uniswap",
-          "price_change_24h": 0.35114,
-          "price_change_7d": -11.842485174374195,
-          "current_price": 3.04,
+          "price_change_24h": -2.18011,
+          "price_change_7d": -12.066430496361427,
+          "current_price": 2.98,
           "market_cap_rank": 47,
           "is_trending": false
         }
@@ -135,7 +135,7 @@
     {
       "id": "ai_tokens",
       "name": "AI Tokens",
-      "score": 46.6,
+      "score": 54.0,
       "mentions_24h": 29,
       "velocity": 29.0,
       "sentiment": 0.0,
@@ -143,18 +143,27 @@
         {
           "symbol": "FET",
           "name": "Artificial Superintelligence Alliance",
-          "price_change_24h": 1.34978,
-          "price_change_7d": 28.283699988036993,
-          "current_price": 0.271667,
+          "price_change_24h": -2.5263,
+          "price_change_7d": 24.56656243630311,
+          "current_price": 0.262883,
           "market_cap_rank": 96,
+          "is_trending": true
+        },
+        {
+          "symbol": "NEAR",
+          "name": "NEAR Protocol",
+          "price_change_24h": -0.98229,
+          "price_change_7d": -7.2404855796980625,
+          "current_price": 2.27,
+          "market_cap_rank": 37,
           "is_trending": true
         },
         {
           "symbol": "WLD",
           "name": "Worldcoin",
-          "price_change_24h": 9.40737,
-          "price_change_7d": 10.818855752690846,
-          "current_price": 0.333536,
+          "price_change_24h": -2.9458,
+          "price_change_7d": 10.891807419672132,
+          "current_price": 0.329953,
           "market_cap_rank": 65,
           "is_trending": false
         },
@@ -195,21 +204,12 @@
           "is_trending": false
         },
         {
-          "symbol": "NEAR",
-          "name": "NEAR Protocol",
-          "price_change_24h": -3.37961,
-          "price_change_7d": -2.93451327078562,
-          "current_price": 2.32,
-          "market_cap_rank": 35,
-          "is_trending": false
-        },
-        {
           "symbol": "TAO",
           "name": "Bittensor",
-          "price_change_24h": 2.60789,
-          "price_change_7d": -7.667287966228526,
-          "current_price": 258.56,
-          "market_cap_rank": 40,
+          "price_change_24h": 0.02355,
+          "price_change_7d": -8.2745335137029,
+          "current_price": 252.66,
+          "market_cap_rank": 41,
           "is_trending": false
         }
       ],
@@ -239,168 +239,51 @@
       "history_7d": [
         {
           "date": "2026-05-25",
-          "score": 33.2
+          "score": 31.7
         },
         {
           "date": "2026-05-26",
-          "score": 35.0
+          "score": 36.2
         },
         {
           "date": "2026-05-27",
-          "score": 36.3
+          "score": 41.5
         },
         {
           "date": "2026-05-28",
-          "score": 38.9
+          "score": 45.4
         },
         {
           "date": "2026-05-29",
-          "score": 41.1
+          "score": 48.9
         },
         {
           "date": "2026-05-30",
-          "score": 43.4
+          "score": 50.3
         },
         {
           "date": "2026-05-31",
-          "score": 46.6
-        }
-      ]
-    },
-    {
-      "id": "solana_ecosystem",
-      "name": "Solana Ecosystem",
-      "score": 25.3,
-      "mentions_24h": 11,
-      "velocity": 11.0,
-      "sentiment": 0.429,
-      "top_coins": [
-        {
-          "symbol": "BONK",
-          "name": "BONK",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": true
-        },
-        {
-          "symbol": "SOL",
-          "name": "Solana",
-          "price_change_24h": 0.69132,
-          "price_change_7d": -4.315795827857883,
-          "current_price": 82.78,
-          "market_cap_rank": 7,
-          "is_trending": true
-        },
-        {
-          "symbol": "RAY",
-          "name": "RAY",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "ORCA",
-          "name": "ORCA",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "JTO",
-          "name": "JTO",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "WIF",
-          "name": "WIF",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "JUP",
-          "name": "Jupiter",
-          "price_change_24h": 0.6653,
-          "price_change_7d": -10.723175232504419,
-          "current_price": 0.185388,
-          "market_cap_rank": 95,
-          "is_trending": false
-        }
-      ],
-      "top_posts": [
-        {
-          "title": "When to sell?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trdg7k/when_to_sell/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "cryptocurrency"
-        },
-        {
-          "title": "Need help getting money out of a wallet(Scammers stay away I won't answer your DMs)",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trlu7q/need_help_getting_money_out_of_a_walletscammers/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "cryptocurrency"
-        },
-        {
-          "title": "The $65B RWA Race Has a Surprise #2 — And It's Not Solana, BNB, or XRP",
-          "url": "https://www.reddit.com/r/defi/comments/1tslx22/the_65b_rwa_race_has_a_surprise_2_and_its_not/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "defi"
-        }
-      ],
-      "history_7d": [
-        {
-          "date": "2026-05-25",
-          "score": 15.2
-        },
-        {
-          "date": "2026-05-26",
-          "score": 17.3
-        },
-        {
-          "date": "2026-05-27",
-          "score": 18.6
-        },
-        {
-          "date": "2026-05-28",
-          "score": 21.1
-        },
-        {
-          "date": "2026-05-29",
-          "score": 23.1
-        },
-        {
-          "date": "2026-05-30",
-          "score": 24.0
-        },
-        {
-          "date": "2026-05-31",
-          "score": 25.3
+          "score": 54.0
         }
       ]
     },
     {
       "id": "rwa",
       "name": "Real World Assets (RWA)",
-      "score": 20.9,
+      "score": 27.5,
       "mentions_24h": 18,
       "velocity": 18.0,
       "sentiment": 0.077,
       "top_coins": [
+        {
+          "symbol": "ONDO",
+          "name": "Ondo",
+          "price_change_24h": 4.32351,
+          "price_change_7d": -18.685934243537787,
+          "current_price": 0.357439,
+          "market_cap_rank": 50,
+          "is_trending": true
+        },
         {
           "symbol": "CFG",
           "name": "CFG",
@@ -445,15 +328,6 @@
           "current_price": null,
           "market_cap_rank": null,
           "is_trending": false
-        },
-        {
-          "symbol": "ONDO",
-          "name": "Ondo",
-          "price_change_24h": 3.20829,
-          "price_change_7d": -19.0262918983536,
-          "current_price": 0.357917,
-          "market_cap_rank": 50,
-          "is_trending": false
         }
       ],
       "top_posts": [
@@ -482,38 +356,164 @@
       "history_7d": [
         {
           "date": "2026-05-25",
-          "score": 10.4
+          "score": 12.4
         },
         {
           "date": "2026-05-26",
-          "score": 12.1
+          "score": 16.1
         },
         {
           "date": "2026-05-27",
-          "score": 13.0
-        },
-        {
-          "date": "2026-05-28",
-          "score": 14.2
-        },
-        {
-          "date": "2026-05-29",
-          "score": 16.2
-        },
-        {
-          "date": "2026-05-30",
           "score": 17.5
         },
         {
+          "date": "2026-05-28",
+          "score": 20.1
+        },
+        {
+          "date": "2026-05-29",
+          "score": 23.3
+        },
+        {
+          "date": "2026-05-30",
+          "score": 24.4
+        },
+        {
           "date": "2026-05-31",
-          "score": 20.9
+          "score": 27.5
+        }
+      ]
+    },
+    {
+      "id": "solana_ecosystem",
+      "name": "Solana Ecosystem",
+      "score": 27.3,
+      "mentions_24h": 12,
+      "velocity": 12.0,
+      "sentiment": 0.375,
+      "top_coins": [
+        {
+          "symbol": "BONK",
+          "name": "BONK",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": true
+        },
+        {
+          "symbol": "SOL",
+          "name": "Solana",
+          "price_change_24h": -1.06556,
+          "price_change_7d": -4.234974628447725,
+          "current_price": 81.75,
+          "market_cap_rank": 7,
+          "is_trending": true
+        },
+        {
+          "symbol": "RAY",
+          "name": "RAY",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "ORCA",
+          "name": "ORCA",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "JTO",
+          "name": "JTO",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "WIF",
+          "name": "WIF",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "JUP",
+          "name": "Jupiter",
+          "price_change_24h": 0.57845,
+          "price_change_7d": -8.27239101697033,
+          "current_price": 0.185562,
+          "market_cap_rank": 95,
+          "is_trending": false
+        }
+      ],
+      "top_posts": [
+        {
+          "title": "Which app has a debit card available in African countries (mauritius) ?",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tsuin8/which_app_has_a_debit_card_available_in_african/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "cryptocurrency"
+        },
+        {
+          "title": "When to sell?",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trdg7k/when_to_sell/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "cryptocurrency"
+        },
+        {
+          "title": "Need help getting money out of a wallet(Scammers stay away I won't answer your DMs)",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trlu7q/need_help_getting_money_out_of_a_walletscammers/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "cryptocurrency"
+        }
+      ],
+      "history_7d": [
+        {
+          "date": "2026-05-25",
+          "score": 10.8
+        },
+        {
+          "date": "2026-05-26",
+          "score": 12.6
+        },
+        {
+          "date": "2026-05-27",
+          "score": 16.0
+        },
+        {
+          "date": "2026-05-28",
+          "score": 20.2
+        },
+        {
+          "date": "2026-05-29",
+          "score": 22.0
+        },
+        {
+          "date": "2026-05-30",
+          "score": 24.4
+        },
+        {
+          "date": "2026-05-31",
+          "score": 27.3
         }
       ]
     },
     {
       "id": "memecoins",
       "name": "Memecoins",
-      "score": 12.9,
+      "score": 13.1,
       "mentions_24h": 10,
       "velocity": 10.0,
       "sentiment": 0.0,
@@ -557,28 +557,28 @@
         {
           "symbol": "SHIB",
           "name": "Shiba Inu",
-          "price_change_24h": 0.61809,
-          "price_change_7d": -2.473287321650157,
-          "current_price": 5.51e-06,
-          "market_cap_rank": 32,
+          "price_change_24h": -1.30258,
+          "price_change_7d": -2.589543212776573,
+          "current_price": 5.44e-06,
+          "market_cap_rank": 33,
           "is_trending": false
         },
         {
           "symbol": "DOGE",
           "name": "Dogecoin",
-          "price_change_24h": 0.11889,
-          "price_change_7d": -2.5611235692390957,
-          "current_price": 0.100737,
+          "price_change_24h": -1.84684,
+          "price_change_7d": -2.6783290652107614,
+          "current_price": 0.099317,
           "market_cap_rank": 10,
           "is_trending": false
         },
         {
           "symbol": "PEPE",
           "name": "Pepe",
-          "price_change_24h": 0.82178,
-          "price_change_7d": -5.022904417320205,
-          "current_price": 3.44e-06,
-          "market_cap_rank": 58,
+          "price_change_24h": -1.58843,
+          "price_change_7d": -5.781587178612945,
+          "current_price": 3.37e-06,
+          "market_cap_rank": 59,
           "is_trending": false
         }
       ],
@@ -608,31 +608,31 @@
       "history_7d": [
         {
           "date": "2026-05-25",
-          "score": 9.3
+          "score": 9.5
         },
         {
           "date": "2026-05-26",
-          "score": 9.7
+          "score": 10.1
         },
         {
           "date": "2026-05-27",
-          "score": 10.2
+          "score": 10.4
         },
         {
           "date": "2026-05-28",
-          "score": 10.7
+          "score": 11.3
         },
         {
           "date": "2026-05-29",
-          "score": 11.5
+          "score": 11.8
         },
         {
           "date": "2026-05-30",
-          "score": 12.2
+          "score": 12.5
         },
         {
           "date": "2026-05-31",
-          "score": 12.9
+          "score": 13.1
         }
       ]
     },
@@ -656,9 +656,9 @@
         {
           "symbol": "MNT",
           "name": "Mantle",
-          "price_change_24h": 4.29208,
-          "price_change_7d": 2.6725675047681743,
-          "current_price": 0.677279,
+          "price_change_24h": 1.9078,
+          "price_change_7d": 1.192916958343566,
+          "current_price": 0.662382,
           "market_cap_rank": 42,
           "is_trending": false
         },
@@ -692,9 +692,9 @@
         {
           "symbol": "ARB",
           "name": "Arbitrum",
-          "price_change_24h": -1.11871,
-          "price_change_7d": -3.2192343375458328,
-          "current_price": 0.103226,
+          "price_change_24h": -2.90524,
+          "price_change_7d": -4.26214287162172,
+          "current_price": 0.101333,
           "market_cap_rank": 92,
           "is_trending": false
         }
@@ -756,10 +756,10 @@
     {
       "id": "btc_ecosystem",
       "name": "Bitcoin Ecosystem",
-      "score": 1.5,
-      "mentions_24h": 2,
-      "velocity": 2.0,
-      "sentiment": 0.0,
+      "score": 3.7,
+      "mentions_24h": 3,
+      "velocity": 3.0,
+      "sentiment": 0.5,
       "top_coins": [
         {
           "symbol": "STX",
@@ -800,8 +800,8 @@
       ],
       "top_posts": [
         {
-          "title": "Coinbase has become uselessly ratchet.",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tpra86/coinbase_has_become_uselessly_ratchet/",
+          "title": "Who do YOU think Satoshi was? and WHY?",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tt1ucs/who_do_you_think_satoshi_was_and_why/",
           "score": 100,
           "comments": 10,
           "subreddit": "cryptocurrency"
@@ -817,125 +817,31 @@
       "history_7d": [
         {
           "date": "2026-05-25",
-          "score": 1.1
+          "score": 1.8
         },
         {
           "date": "2026-05-26",
-          "score": 1.1
+          "score": 2.2
         },
         {
           "date": "2026-05-27",
-          "score": 1.2
+          "score": 2.5
         },
         {
           "date": "2026-05-28",
-          "score": 1.3
+          "score": 2.7
         },
         {
           "date": "2026-05-29",
-          "score": 1.3
+          "score": 3.2
         },
         {
           "date": "2026-05-30",
-          "score": 1.4
+          "score": 3.4
         },
         {
           "date": "2026-05-31",
-          "score": 1.5
-        }
-      ]
-    },
-    {
-      "id": "restaking",
-      "name": "Restaking / LRT",
-      "score": 0.7,
-      "mentions_24h": 1,
-      "velocity": 1.0,
-      "sentiment": 0.0,
-      "top_coins": [
-        {
-          "symbol": "EIGEN",
-          "name": "EIGEN",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "ETHFI",
-          "name": "ETHFI",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "PENDLE",
-          "name": "PENDLE",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "SWELL",
-          "name": "SWELL",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "REZ",
-          "name": "REZ",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        }
-      ],
-      "top_posts": [
-        {
-          "title": "Have I been scammed? Ether.fi USDT TRC20 deposit address disappeared after I sent funds",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tr5oo9/have_i_been_scammed_etherfi_usdt_trc20_deposit/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "cryptocurrency"
-        }
-      ],
-      "history_7d": [
-        {
-          "date": "2026-05-25",
-          "score": 1.0
-        },
-        {
-          "date": "2026-05-26",
-          "score": 0.9
-        },
-        {
-          "date": "2026-05-27",
-          "score": 0.9
-        },
-        {
-          "date": "2026-05-28",
-          "score": 0.8
-        },
-        {
-          "date": "2026-05-29",
-          "score": 0.8
-        },
-        {
-          "date": "2026-05-30",
-          "score": 0.7
-        },
-        {
-          "date": "2026-05-31",
-          "score": 0.7
+          "score": 3.7
         }
       ]
     },
@@ -995,9 +901,9 @@
         {
           "symbol": "FIL",
           "name": "Filecoin",
-          "price_change_24h": -1.28163,
-          "price_change_7d": -0.8349563751676441,
-          "current_price": 0.961807,
+          "price_change_24h": -4.25392,
+          "price_change_7d": -2.845972787225509,
+          "current_price": 0.928778,
           "market_cap_rank": 86,
           "is_trending": false
         }
@@ -1099,6 +1005,92 @@
         {
           "symbol": "YGG",
           "name": "YGG",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        }
+      ],
+      "top_posts": [],
+      "history_7d": [
+        {
+          "date": "2026-05-25",
+          "score": 0.8
+        },
+        {
+          "date": "2026-05-26",
+          "score": 0.7
+        },
+        {
+          "date": "2026-05-27",
+          "score": 0.6
+        },
+        {
+          "date": "2026-05-28",
+          "score": 0.4
+        },
+        {
+          "date": "2026-05-29",
+          "score": 0.3
+        },
+        {
+          "date": "2026-05-30",
+          "score": 0.1
+        },
+        {
+          "date": "2026-05-31",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "restaking",
+      "name": "Restaking / LRT",
+      "score": 0.0,
+      "mentions_24h": 0,
+      "velocity": 0.0,
+      "sentiment": 0.0,
+      "top_coins": [
+        {
+          "symbol": "EIGEN",
+          "name": "EIGEN",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "ETHFI",
+          "name": "ETHFI",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "PENDLE",
+          "name": "PENDLE",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "SWELL",
+          "name": "SWELL",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "REZ",
+          "name": "REZ",
           "price_change_24h": null,
           "price_change_7d": null,
           "current_price": null,
