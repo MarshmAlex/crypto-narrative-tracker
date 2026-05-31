@@ -5,9 +5,26 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CryptoNarrativeTracker — Spot emerging narratives before the crowd",
+  title: "GeniBiz — Crypto Narrative Tracker | Real-Time Crypto Trends",
   description:
-    "Real-time crypto narrative momentum tracker. Detect AI tokens, RWA, DePIN, memecoins, and more before they trend.",
+    "Track emerging crypto narratives in real-time. DeFi, AI tokens, Solana, RWA — see what's hot before everyone else. Updated every 6 hours.",
+  metadataBase: new URL("https://genibiz.com"),
+  alternates: {
+    canonical: "https://genibiz.com",
+  },
+  openGraph: {
+    title: "GeniBiz — Crypto Narrative Tracker | Real-Time Crypto Trends",
+    description:
+      "Track emerging crypto narratives in real-time. DeFi, AI tokens, Solana, RWA — see what's hot before everyone else. Updated every 6 hours.",
+    url: "https://genibiz.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GeniBiz — Crypto Narrative Tracker | Real-Time Crypto Trends",
+    description:
+      "Track emerging crypto narratives in real-time. DeFi, AI tokens, Solana, RWA — see what's hot before everyone else. Updated every 6 hours.",
+  },
   themeColor: "#0a0e17",
 };
 
