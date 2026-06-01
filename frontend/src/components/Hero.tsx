@@ -100,17 +100,18 @@ export default function Hero({ meta }: HeroProps) {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-4">
               Crypto Narrative Tracker —{" "}
-              <span className="text-brand-400">Spot trends before the crowd</span>
+              <span className="text-brand-400">Trending Crypto Narratives & Market Sentiment in Real Time</span>
             </h1>
 
             <p className="text-slate-400 text-lg sm:text-xl leading-relaxed mb-8">
-              Track <strong className="text-slate-300">real-time crypto trends</strong> and{" "}
-              <strong className="text-slate-300">emerging narratives</strong> — from{" "}
+              The #1 <strong className="text-slate-300">crypto narrative tracker</strong> for spotting{" "}
+              <strong className="text-slate-300">trending crypto narratives</strong> and reading{" "}
+              <strong className="text-slate-300">crypto market sentiment</strong> before the crowd. From{" "}
               <strong className="text-slate-300">DeFi</strong> and{" "}
               <strong className="text-slate-300">AI tokens</strong> to{" "}
-              <strong className="text-slate-300">Solana</strong> ecosystem plays. We analyse
+              <strong className="text-slate-300">Solana</strong> ecosystem plays — we analyse
               10,000+ Reddit posts and CoinGecko signals every 2 hours to surface what's
-              gaining momentum before it hits the mainstream.
+              gaining momentum.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -153,10 +154,10 @@ export default function Hero({ meta }: HeroProps) {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-surface-900/40" id="how-it-works">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-black text-white text-center mb-4">
-            How It Works
+            How Our Crypto Narrative Tracker Works
           </h2>
           <p className="text-slate-400 text-center mb-14 max-w-xl mx-auto">
-            Three simple steps to get ahead of the next big crypto narrative.
+            Three simple steps to read crypto market sentiment and catch trending crypto narratives early.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
@@ -197,10 +198,10 @@ export default function Hero({ meta }: HeroProps) {
       <section className="py-20 px-4 sm:px-6 lg:px-8" id="faq">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-black text-white text-center mb-4">
-            Frequently Asked Questions
+            Frequently Asked Questions About Crypto Narratives
           </h2>
           <p className="text-slate-400 text-center mb-14">
-            Everything you need to know about crypto narratives and how we track them.
+            Everything you need to know about trending crypto narratives, crypto market sentiment, and how our tracker works.
           </p>
 
           <div className="space-y-4">

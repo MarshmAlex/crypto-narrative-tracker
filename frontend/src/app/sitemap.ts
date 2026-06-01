@@ -1,18 +1,33 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://genibiz.com";
+  const now = new Date();
+
   return [
     {
-      url: "https://genibiz.com",
-      lastModified: new Date(),
+      url: baseUrl,
+      lastModified: now,
       changeFrequency: "hourly",
-      priority: 1,
+      priority: 1.0,
     },
     {
-      url: "https://genibiz.com/pro",
-      lastModified: new Date(),
+      url: `${baseUrl}/#dashboard`,
+      lastModified: now,
+      changeFrequency: "hourly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/#pricing`,
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/#faq`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
     },
   ];
 }

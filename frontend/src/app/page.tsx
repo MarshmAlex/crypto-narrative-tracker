@@ -83,10 +83,10 @@ export default function Home() {
         <section id="dashboard" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-white">
-              Narrative Momentum Board
+              Trending Crypto Narratives — Live Momentum Board
             </h2>
             <p className="text-slate-400 mt-1 text-sm">
-              Ranked by composite score: mention velocity × engagement × sentiment × on-chain signals
+              Crypto market sentiment ranked by composite score: mention velocity × engagement × sentiment × on-chain signals
             </p>
           </div>
 
@@ -143,7 +143,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="border-t border-surface-600 py-8 text-center text-slate-600 text-xs">
-          <p>CryptoNarrativeTracker · Data refreshed every 2 hours · Not financial advice</p>
+          <p>Crypto Narrative Tracker by GeniBiz · Trending crypto narratives & market sentiment · Data refreshed every 2 hours · Not financial advice</p>
           <p className="mt-1">
             Sources: Reddit (r/cryptocurrency, r/CryptoMarkets, r/defi, r/altcoin) · CoinGecko API
           </p>
