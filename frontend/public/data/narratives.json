@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-01T05:37:55.250610+00:00",
+    "generated_at": "2026-06-01T11:37:55.574061+00:00",
     "posts_analysed": 200,
     "trending_coins": 15,
     "market_coins": 100
@@ -10,9 +10,9 @@
       "id": "defi",
       "name": "DeFi",
       "score": 100.0,
-      "mentions_24h": 78,
-      "velocity": 78.0,
-      "sentiment": -0.016,
+      "mentions_24h": 73,
+      "velocity": 73.0,
+      "sentiment": -0.041,
       "top_coins": [
         {
           "symbol": "COMP",
@@ -62,19 +62,19 @@
         {
           "symbol": "AAVE",
           "name": "Aave",
-          "price_change_24h": -1.62555,
-          "price_change_7d": -4.0837920270586965,
-          "current_price": 81.87,
-          "market_cap_rank": 64,
+          "price_change_24h": -1.88507,
+          "price_change_7d": -6.427250407872196,
+          "current_price": 81.13,
+          "market_cap_rank": 65,
           "is_trending": false
         },
         {
           "symbol": "UNI",
           "name": "Uniswap",
-          "price_change_24h": -2.06057,
-          "price_change_7d": -11.085635788553013,
-          "current_price": 3.0,
-          "market_cap_rank": 46,
+          "price_change_24h": -1.98902,
+          "price_change_7d": -11.837236342001878,
+          "current_price": 2.97,
+          "market_cap_rank": 48,
           "is_trending": false
         }
       ],
@@ -135,36 +135,36 @@
     {
       "id": "ai_tokens",
       "name": "AI Tokens",
-      "score": 57.2,
-      "mentions_24h": 28,
-      "velocity": 28.0,
+      "score": 62.3,
+      "mentions_24h": 27,
+      "velocity": 27.0,
       "sentiment": 0.0,
       "top_coins": [
         {
-          "symbol": "WLD",
-          "name": "Worldcoin",
-          "price_change_24h": 13.49861,
-          "price_change_7d": 35.201248506841445,
-          "current_price": 0.391396,
-          "market_cap_rank": 61,
+          "symbol": "FET",
+          "name": "Artificial Superintelligence Alliance",
+          "price_change_24h": 5.10574,
+          "price_change_7d": 33.108588686555805,
+          "current_price": 0.284154,
+          "market_cap_rank": 91,
           "is_trending": true
         },
         {
           "symbol": "NEAR",
           "name": "NEAR Protocol",
-          "price_change_24h": 0.78067,
-          "price_change_7d": -1.2368092174478156,
-          "current_price": 2.34,
-          "market_cap_rank": 35,
+          "price_change_24h": 3.762,
+          "price_change_7d": -4.518652416968624,
+          "current_price": 2.35,
+          "market_cap_rank": 34,
           "is_trending": true
         },
         {
-          "symbol": "FET",
-          "name": "Artificial Superintelligence Alliance",
-          "price_change_24h": 2.50462,
-          "price_change_7d": 30.362682850405363,
-          "current_price": 0.278601,
-          "market_cap_rank": 95,
+          "symbol": "WLD",
+          "name": "Worldcoin",
+          "price_change_24h": 14.22457,
+          "price_change_7d": 25.451073160622524,
+          "current_price": 0.378757,
+          "market_cap_rank": 62,
           "is_trending": false
         },
         {
@@ -206,9 +206,9 @@
         {
           "symbol": "TAO",
           "name": "Bittensor",
-          "price_change_24h": -2.57524,
-          "price_change_7d": -8.260792323015917,
-          "current_price": 251.86,
+          "price_change_24h": -2.5578,
+          "price_change_7d": -10.281547495734852,
+          "current_price": 251.08,
           "market_cap_rank": 41,
           "is_trending": false
         }
@@ -229,8 +229,8 @@
           "subreddit": "cryptocurrency"
         },
         {
-          "title": "Target price on Solana",
-          "url": "https://www.reddit.com/r/CryptoMarkets/comments/1tt4ere/target_price_on_solana/",
+          "title": "Google Has A Secret Weapon For AI Race And It Is Not Gemini",
+          "url": "https://www.reddit.com/r/CryptoMarkets/comments/1tsky32/google_has_a_secret_weapon_for_ai_race_and_it_is/",
           "score": 100,
           "comments": 10,
           "subreddit": "CryptoMarkets"
@@ -239,159 +239,51 @@
       "history_7d": [
         {
           "date": "2026-05-26",
-          "score": 33.9
+          "score": 32.9
         },
         {
           "date": "2026-05-27",
-          "score": 36.4
+          "score": 37.7
         },
         {
           "date": "2026-05-28",
-          "score": 41.6
+          "score": 42.2
         },
         {
           "date": "2026-05-29",
-          "score": 47.1
+          "score": 45.7
         },
         {
           "date": "2026-05-30",
-          "score": 49.1
+          "score": 53.3
         },
         {
           "date": "2026-05-31",
-          "score": 53.6
+          "score": 57.5
         },
         {
           "date": "2026-06-01",
-          "score": 57.2
-        }
-      ]
-    },
-    {
-      "id": "rwa",
-      "name": "Real World Assets (RWA)",
-      "score": 27.0,
-      "mentions_24h": 18,
-      "velocity": 18.0,
-      "sentiment": 0.077,
-      "top_coins": [
-        {
-          "symbol": "ONDO",
-          "name": "Ondo",
-          "price_change_24h": -2.68744,
-          "price_change_7d": -17.25608401033992,
-          "current_price": 0.362267,
-          "market_cap_rank": 50,
-          "is_trending": true
-        },
-        {
-          "symbol": "CFG",
-          "name": "CFG",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "MPL",
-          "name": "MPL",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "GFI",
-          "name": "GFI",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "TRU",
-          "name": "TRU",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "POLY",
-          "name": "POLY",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        }
-      ],
-      "top_posts": [
-        {
-          "title": "DTCC’s $4.7 quadrillion tokenization plan shows where RWAs may actually be heading",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trtms2/dtccs_47_quadrillion_tokenization_plan_shows/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "cryptocurrency"
-        },
-        {
-          "title": "Everyone is raving about the S&P 500's historic AI-driven all-time highs. But they are ignoring the red alert that Bitco",
-          "url": "https://www.reddit.com/r/CryptoMarkets/comments/1trth90/everyone_is_raving_about_the_sp_500s_historic/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "CryptoMarkets"
-        },
-        {
-          "title": "The $65B RWA Race Has a Surprise #2 — And It's Not Solana, BNB, or XRP",
-          "url": "https://www.reddit.com/r/defi/comments/1tslx22/the_65b_rwa_race_has_a_surprise_2_and_its_not/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "defi"
-        }
-      ],
-      "history_7d": [
-        {
-          "date": "2026-05-26",
-          "score": 19.8
-        },
-        {
-          "date": "2026-05-27",
-          "score": 20.6
-        },
-        {
-          "date": "2026-05-28",
-          "score": 21.7
-        },
-        {
-          "date": "2026-05-29",
-          "score": 23.3
-        },
-        {
-          "date": "2026-05-30",
-          "score": 24.2
-        },
-        {
-          "date": "2026-05-31",
-          "score": 26.3
-        },
-        {
-          "date": "2026-06-01",
-          "score": 27.0
+          "score": 62.3
         }
       ]
     },
     {
       "id": "solana_ecosystem",
       "name": "Solana Ecosystem",
-      "score": 21.9,
-      "mentions_24h": 16,
-      "velocity": 16.0,
-      "sentiment": 0.3,
+      "score": 28.0,
+      "mentions_24h": 15,
+      "velocity": 15.0,
+      "sentiment": 0.28,
       "top_coins": [
+        {
+          "symbol": "SOL",
+          "name": "Solana",
+          "price_change_24h": -1.93291,
+          "price_change_7d": -5.7363675374465215,
+          "current_price": 81.06,
+          "market_cap_rank": 7,
+          "is_trending": true
+        },
         {
           "symbol": "RAY",
           "name": "RAY",
@@ -438,25 +330,23 @@
           "is_trending": false
         },
         {
-          "symbol": "SOL",
-          "name": "Solana",
-          "price_change_24h": -1.60783,
-          "price_change_7d": -4.727813958485247,
-          "current_price": 81.68,
-          "market_cap_rank": 7,
-          "is_trending": false
-        },
-        {
           "symbol": "JUP",
           "name": "Jupiter",
-          "price_change_24h": 2.9913,
-          "price_change_7d": -4.975854639495695,
-          "current_price": 0.191742,
+          "price_change_24h": 4.60367,
+          "price_change_7d": -5.112487463183289,
+          "current_price": 0.19277,
           "market_cap_rank": 92,
           "is_trending": false
         }
       ],
       "top_posts": [
+        {
+          "title": "Opinion on ETH, HEDERA, CHAINLINK and SOL? They will recover?",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ttnge7/opinion_on_eth_hedera_chainlink_and_sol_they_will/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "cryptocurrency"
+        },
         {
           "title": "Diving into Solana's Proof of History setup and what it really means for scalability after the recent outages",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ttcr1p/diving_into_solanas_proof_of_history_setup_and/",
@@ -470,50 +360,160 @@
           "score": 100,
           "comments": 10,
           "subreddit": "cryptocurrency"
-        },
-        {
-          "title": "When to sell?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trdg7k/when_to_sell/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "cryptocurrency"
         }
       ],
       "history_7d": [
         {
           "date": "2026-05-26",
-          "score": 12.5
+          "score": 18.4
         },
         {
           "date": "2026-05-27",
-          "score": 14.4
+          "score": 19.7
         },
         {
           "date": "2026-05-28",
-          "score": 16.0
+          "score": 21.5
         },
         {
           "date": "2026-05-29",
-          "score": 17.5
+          "score": 22.7
         },
         {
           "date": "2026-05-30",
-          "score": 18.9
+          "score": 24.1
         },
         {
           "date": "2026-05-31",
-          "score": 20.3
+          "score": 25.6
         },
         {
           "date": "2026-06-01",
-          "score": 21.9
+          "score": 28.0
+        }
+      ]
+    },
+    {
+      "id": "rwa",
+      "name": "Real World Assets (RWA)",
+      "score": 18.4,
+      "mentions_24h": 15,
+      "velocity": 15.0,
+      "sentiment": 0.091,
+      "top_coins": [
+        {
+          "symbol": "CFG",
+          "name": "CFG",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "MPL",
+          "name": "MPL",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "GFI",
+          "name": "GFI",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "TRU",
+          "name": "TRU",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "POLY",
+          "name": "POLY",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "ONDO",
+          "name": "Ondo",
+          "price_change_24h": -2.40778,
+          "price_change_7d": -19.264434397308815,
+          "current_price": 0.349942,
+          "market_cap_rank": 50,
+          "is_trending": false
+        }
+      ],
+      "top_posts": [
+        {
+          "title": "DTCC’s $4.7 quadrillion tokenization plan shows where RWAs may actually be heading",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trtms2/dtccs_47_quadrillion_tokenization_plan_shows/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "cryptocurrency"
+        },
+        {
+          "title": "Everyone is raving about the S&P 500's historic AI-driven all-time highs. But they are ignoring the red alert that Bitco",
+          "url": "https://www.reddit.com/r/CryptoMarkets/comments/1trth90/everyone_is_raving_about_the_sp_500s_historic/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "CryptoMarkets"
+        },
+        {
+          "title": "The $65B RWA Race Has a Surprise #2 — And It's Not Solana, BNB, or XRP",
+          "url": "https://www.reddit.com/r/defi/comments/1tslx22/the_65b_rwa_race_has_a_surprise_2_and_its_not/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "defi"
+        }
+      ],
+      "history_7d": [
+        {
+          "date": "2026-05-26",
+          "score": 8.2
+        },
+        {
+          "date": "2026-05-27",
+          "score": 10.3
+        },
+        {
+          "date": "2026-05-28",
+          "score": 12.5
+        },
+        {
+          "date": "2026-05-29",
+          "score": 14.6
+        },
+        {
+          "date": "2026-05-30",
+          "score": 16.0
+        },
+        {
+          "date": "2026-05-31",
+          "score": 17.3
+        },
+        {
+          "date": "2026-06-01",
+          "score": 18.4
         }
       ]
     },
     {
       "id": "memecoins",
       "name": "Memecoins",
-      "score": 12.1,
+      "score": 13.1,
       "mentions_24h": 12,
       "velocity": 12.0,
       "sentiment": 0.0,
@@ -555,29 +555,29 @@
           "is_trending": false
         },
         {
-          "symbol": "SHIB",
-          "name": "Shiba Inu",
-          "price_change_24h": -0.88733,
-          "price_change_7d": -1.5756530377503735,
-          "current_price": 5.48e-06,
-          "market_cap_rank": 33,
+          "symbol": "DOGE",
+          "name": "Dogecoin",
+          "price_change_24h": -0.70824,
+          "price_change_7d": -2.757281302965102,
+          "current_price": 0.099982,
+          "market_cap_rank": 11,
           "is_trending": false
         },
         {
-          "symbol": "DOGE",
-          "name": "Dogecoin",
-          "price_change_24h": -0.73854,
-          "price_change_7d": -2.2250534303465703,
-          "current_price": 0.100178,
-          "market_cap_rank": 11,
+          "symbol": "SHIB",
+          "name": "Shiba Inu",
+          "price_change_24h": -1.03819,
+          "price_change_7d": -3.2858850094051713,
+          "current_price": 5.45e-06,
+          "market_cap_rank": 33,
           "is_trending": false
         },
         {
           "symbol": "PEPE",
           "name": "Pepe",
-          "price_change_24h": -1.6752,
-          "price_change_7d": -5.332979897601009,
-          "current_price": 3.39e-06,
+          "price_change_24h": -1.9558,
+          "price_change_7d": -6.833090506281618,
+          "current_price": 3.37e-06,
           "market_cap_rank": 59,
           "is_trending": false
         }
@@ -608,41 +608,158 @@
       "history_7d": [
         {
           "date": "2026-05-26",
-          "score": 5.1
+          "score": 9.5
         },
         {
           "date": "2026-05-27",
-          "score": 5.8
+          "score": 10.1
         },
         {
           "date": "2026-05-28",
-          "score": 6.4
+          "score": 10.4
         },
         {
           "date": "2026-05-29",
-          "score": 8.3
+          "score": 11.3
         },
         {
           "date": "2026-05-30",
-          "score": 10.0
+          "score": 11.8
         },
         {
           "date": "2026-05-31",
-          "score": 10.6
+          "score": 12.5
         },
         {
           "date": "2026-06-01",
-          "score": 12.1
+          "score": 13.1
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "name": "Layer 2 / Scaling",
+      "score": 5.7,
+      "mentions_24h": 5,
+      "velocity": 5.0,
+      "sentiment": 0.2,
+      "top_coins": [
+        {
+          "symbol": "OP",
+          "name": "OP",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "MATIC",
+          "name": "MATIC",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "IMX",
+          "name": "IMX",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "STRK",
+          "name": "STRK",
+          "price_change_24h": null,
+          "price_change_7d": null,
+          "current_price": null,
+          "market_cap_rank": null,
+          "is_trending": false
+        },
+        {
+          "symbol": "MNT",
+          "name": "Mantle",
+          "price_change_24h": -3.67991,
+          "price_change_7d": -0.659334950493572,
+          "current_price": 0.645773,
+          "market_cap_rank": 43,
+          "is_trending": false
+        },
+        {
+          "symbol": "ARB",
+          "name": "Arbitrum",
+          "price_change_24h": -1.5951,
+          "price_change_7d": -5.681547898685745,
+          "current_price": 0.101108,
+          "market_cap_rank": 94,
+          "is_trending": false
+        }
+      ],
+      "top_posts": [
+        {
+          "title": "Can ChatGPT Manage Your Crypto Wallet? Base MCP Explained",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trd9ch/can_chatgpt_manage_your_crypto_wallet_base_mcp/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "cryptocurrency"
+        },
+        {
+          "title": "Paris won, but $PSG token is dumping. Can someone explain sports crypto logic to me?",
+          "url": "https://www.reddit.com/r/CryptoMarkets/comments/1ttjhhz/paris_won_but_psg_token_is_dumping_can_someone/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "CryptoMarkets"
+        },
+        {
+          "title": "What LI.FI Intents Made Me Realize About Crypto's Fragmentation Problem",
+          "url": "https://www.reddit.com/r/defi/comments/1ttnhao/what_lifi_intents_made_me_realize_about_cryptos/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "defi"
+        }
+      ],
+      "history_7d": [
+        {
+          "date": "2026-05-26",
+          "score": 2.2
+        },
+        {
+          "date": "2026-05-27",
+          "score": 2.5
+        },
+        {
+          "date": "2026-05-28",
+          "score": 3.4
+        },
+        {
+          "date": "2026-05-29",
+          "score": 3.9
+        },
+        {
+          "date": "2026-05-30",
+          "score": 4.5
+        },
+        {
+          "date": "2026-05-31",
+          "score": 4.9
+        },
+        {
+          "date": "2026-06-01",
+          "score": 5.7
         }
       ]
     },
     {
       "id": "btc_ecosystem",
       "name": "Bitcoin Ecosystem",
-      "score": 3.0,
-      "mentions_24h": 2,
-      "velocity": 2.0,
-      "sentiment": 1.0,
+      "score": 3.9,
+      "mentions_24h": 3,
+      "velocity": 3.0,
+      "sentiment": 0.5,
       "top_coins": [
         {
           "symbol": "STX",
@@ -688,146 +805,43 @@
           "score": 100,
           "comments": 10,
           "subreddit": "cryptocurrency"
+        },
+        {
+          "title": "Your Keys, Their Coins: The Terrifying Legal Loophole Coming for 3.7 Million Dormant Bitcoin. The State vs. Satoshi: How",
+          "url": "https://www.reddit.com/r/CryptoMarkets/comments/1tpy951/your_keys_their_coins_the_terrifying_legal/",
+          "score": 100,
+          "comments": 10,
+          "subreddit": "CryptoMarkets"
         }
       ],
       "history_7d": [
         {
           "date": "2026-05-26",
-          "score": 1.8
-        },
-        {
-          "date": "2026-05-27",
-          "score": 1.9
-        },
-        {
-          "date": "2026-05-28",
-          "score": 2.1
-        },
-        {
-          "date": "2026-05-29",
-          "score": 2.4
-        },
-        {
-          "date": "2026-05-30",
-          "score": 2.6
-        },
-        {
-          "date": "2026-05-31",
-          "score": 2.8
-        },
-        {
-          "date": "2026-06-01",
-          "score": 3.0
-        }
-      ]
-    },
-    {
-      "id": "l2",
-      "name": "Layer 2 / Scaling",
-      "score": 2.4,
-      "mentions_24h": 3,
-      "velocity": 3.0,
-      "sentiment": 0.0,
-      "top_coins": [
-        {
-          "symbol": "MNT",
-          "name": "Mantle",
-          "price_change_24h": -4.62593,
-          "price_change_7d": 0.9278974840804162,
-          "current_price": 0.653203,
-          "market_cap_rank": 42,
-          "is_trending": false
-        },
-        {
-          "symbol": "OP",
-          "name": "OP",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "MATIC",
-          "name": "MATIC",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "IMX",
-          "name": "IMX",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "STRK",
-          "name": "STRK",
-          "price_change_24h": null,
-          "price_change_7d": null,
-          "current_price": null,
-          "market_cap_rank": null,
-          "is_trending": false
-        },
-        {
-          "symbol": "ARB",
-          "name": "Arbitrum",
-          "price_change_24h": -2.22702,
-          "price_change_7d": -2.5324995151234964,
-          "current_price": 0.102231,
-          "market_cap_rank": 91,
-          "is_trending": false
-        }
-      ],
-      "top_posts": [
-        {
-          "title": "Can ChatGPT Manage Your Crypto Wallet? Base MCP Explained",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1trd9ch/can_chatgpt_manage_your_crypto_wallet_base_mcp/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "cryptocurrency"
-        },
-        {
-          "title": "Paid to DCA - real process and APY on Base",
-          "url": "https://www.reddit.com/r/defi/comments/1tqpmjg/paid_to_dca_real_process_and_apy_on_base/",
-          "score": 100,
-          "comments": 10,
-          "subreddit": "defi"
-        }
-      ],
-      "history_7d": [
-        {
-          "date": "2026-05-26",
-          "score": 1.6
-        },
-        {
-          "date": "2026-05-27",
-          "score": 1.8
-        },
-        {
-          "date": "2026-05-28",
-          "score": 1.9
-        },
-        {
-          "date": "2026-05-29",
-          "score": 2.0
-        },
-        {
-          "date": "2026-05-30",
           "score": 2.2
         },
         {
+          "date": "2026-05-27",
+          "score": 2.5
+        },
+        {
+          "date": "2026-05-28",
+          "score": 2.9
+        },
+        {
+          "date": "2026-05-29",
+          "score": 3.3
+        },
+        {
+          "date": "2026-05-30",
+          "score": 3.5
+        },
+        {
           "date": "2026-05-31",
-          "score": 2.3
+          "score": 3.6
         },
         {
           "date": "2026-06-01",
-          "score": 2.4
+          "score": 3.9
         }
       ]
     },
@@ -887,9 +901,9 @@
         {
           "symbol": "FIL",
           "name": "Filecoin",
-          "price_change_24h": -4.17086,
-          "price_change_7d": -1.9950049993642933,
-          "current_price": 0.935247,
+          "price_change_24h": -3.80675,
+          "price_change_7d": -5.3763307262627835,
+          "current_price": 0.924563,
           "market_cap_rank": 87,
           "is_trending": false
         }

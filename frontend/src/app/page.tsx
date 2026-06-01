@@ -130,7 +130,7 @@ export default function Home() {
                     href="#pricing"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand-500 hover:bg-brand-400 text-white font-semibold transition-colors"
                   >
-                    Get Pro — €15/month
+                    Get Pro — €9/month
                     <span className="text-lg">→</span>
                   </a>
                 </div>
